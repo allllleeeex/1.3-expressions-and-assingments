@@ -15,6 +15,18 @@ public class Main
         {
             System.out.println("Answer: " + (first + second));
         }
+        if(operation.equals("-"))
+        {
+            System.out.println("Answer: " + (first - second));
+        }
+        if(operation.equals("*"))
+        {
+            System.out.println("Answer: " + (first * second));
+        }
+        if(operation.equals("/"))
+        {
+            System.out.println("Answer: " + (first / second));
+        }
         s.close();
     }
 }
